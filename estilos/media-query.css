@@ -4,10 +4,12 @@
 
     body{
         background-image: linear-gradient(130deg, #348f78, #56B4D3);
+        overflow: hidden;
     }
 
     section#login{
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -25,10 +27,12 @@
 @media screen and (min-width: 1024px) {
     body{
         background-image: linear-gradient(130deg, #348f78, #56B4D3);
+        overflow: hidden;
     }
 
     section#login{
         width: 950px;
+        height: 400px;
     }
     
     section#login > div#imagem{
