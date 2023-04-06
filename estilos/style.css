@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/*
+    Paleta
+    roxo:#635AD9
+    verde:#49A09D
+    azul:#219BE4
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #635AD9;
+    height: 100vw;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#login{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    overflow: hidden;
+
+    transition: width 150ms, height 150ms;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem{
+    display: block;
+    background: #635AD9 url(../imagens/plano.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+
+section#login > div#formu{
+    display: block;
+    padding: 10px;
+}
+
+div#formu > h1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+div#formu > p{
+    font-size: 1.2em;
+}
